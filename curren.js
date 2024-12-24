@@ -238,3 +238,18 @@ btn.addEventListener("click",async(e)=>{
 
 });
 
+let icon=document.querySelector('i');
+
+icon.addEventListener("click",()=>{
+    let x=img.src;
+    img.src=img1.src;
+    img1.src=x;
+    
+
+    let u=drop.value;
+   drop.value=drop1.value;
+   drop1.value=u;
+
+   
+})
+
